@@ -8,24 +8,55 @@
 </head>
 <body>
     <header>
-        <nav>
-            <h1>Explore Culture & Heritage</h1>
+        <nav class="navbar">
+            <img id="logo" src="img/logo.jpg" alt="">
+            <!-- <h1>Explore Culture & Heritage</h1> -->
             <ul>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#gallery">Cultural wonders</a></li>
+                <li><a href="#heritagestories">Heritage stories</a></li>
+                <li><a href="#about">Our story</a></li>
+                <li><a href="#contact">Companions</a></li>
             </ul>
+            <div></div>
         </nav>
     </header>
-
+    <section id="hero">
+        <h2>Discover the Richness of Culture and Heritage</h2>
+        <!-- <p>Explore the diverse traditions, arts, and architecture that shape our history.</p> -->
+        <button onclick="explore()">Explore</button>
+    </section>
+    
     <section id="gallery">
         <h2>Gallery</h2>
         <div class="gallery-container">
-            <img src="https://via.placeholder.com/200" alt="Cultural Artifact">
-            <img src="https://via.placeholder.com/200" alt="Traditional Dance">
-            <img src="https://via.placeholder.com/200" alt="Historical Site">
-            <img src="https://via.placeholder.com/200" alt="Festival Celebration">
+            <div class="gallery-item">
+                <img src="img/card-1.jpg" alt="Cultural Artifact">
+                <div class="overlay">
+                    <div class="overlay-text">Cultural Artifact</div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="img/card-2.jpg" alt="Traditional Dance">
+                <div class="overlay">
+                    <div class="overlay-text">Traditional Dance</div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="img/card3.jpg" alt="Historical Site">
+                <div class="overlay">
+                    <div class="overlay-text">Historical Site</div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="img/card-4.jpg" alt="Festival Celebration">
+                <div class="overlay">
+                    <div class="overlay-text">Festival Celebration</div>
+                </div>
+            </div>
         </div>
+    </section>
+    <section id="single-col">
+
     </section>
 
     <section id="contact">
@@ -44,11 +75,6 @@
         </form>
     </section>
 
-    <section id="hero">
-        <h2>Discover the Richness of Culture and Heritage</h2>
-        <p>Explore the diverse traditions, arts, and architecture that shape our history.</p>
-        <button onclick="learnMore()">Learn More</button>
-    </section>
 
     <section id="about">
         <h2>About Our Mission</h2>
